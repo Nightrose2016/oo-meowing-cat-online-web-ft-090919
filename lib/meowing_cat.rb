@@ -1,5 +1,9 @@
 ## code your solution here. 
 class Cat
-  attr_reader :meow
+  attr_reader :name
+  
+  def meow
+    puts "meow!"
+  end
 end
   
